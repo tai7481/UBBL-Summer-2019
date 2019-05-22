@@ -44,7 +44,7 @@ namespace VRStandardAssets.Menu
         {
             // When the user looks at the VRInteractiveItem the textures should start playing.
             m_Playing = true;
-            StartCoroutine (PlayTextures ());
+            //StartCoroutine (PlayTextures ());   // Disabling as a temp fix 
         }
 
 
