@@ -14,7 +14,7 @@ namespace VRStandardAssets.Menu
         public event Action<MenuButton> OnButtonSelected;                   // This event is triggered when the selection of the button has finished.
 
 
-        [SerializeField] private string m_SceneToLoad;                      // The name of the scene to load.
+        [SerializeField] private string Game;                      // The name of the scene to load.
         [SerializeField] private VRCameraFade m_CameraFade;                 // This fades the scene out when a new scene is about to be loaded.
         [SerializeField] private SelectionRadial m_SelectionRadial;         // This controls when the selection is complete.
         [SerializeField] private VRInteractiveItem m_InteractiveItem;       // The interactive item for where the user should click to load the level.
@@ -78,8 +78,8 @@ namespace VRStandardAssets.Menu
             // Wait for the camera to fade out.
             yield return StartCoroutine(m_CameraFade.BeginFadeOut(true));
 
-            // Load the level.
-            SceneManager.LoadScene(m_SceneToLoad, LoadSceneMode.Single);
+            // Load the level. This is where we need to change the scene
+            SceneManager.LoadScene(Game, LoadSceneMode.Single);
         }
     }
 }
