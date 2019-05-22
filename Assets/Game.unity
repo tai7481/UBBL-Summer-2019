@@ -5487,7 +5487,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16270,7 +16270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!198 &457215100
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -24334,6 +24334,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 578425239}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_Reticle
+      value: 
+      objectReference: {fileID: 578425231}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_VRInput
+      value: 
+      objectReference: {fileID: 578425227}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_DoubleTapWarningMessage
+      value: Hold, don't tap!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_SingleTapWarningMessage
+      value: Swipe to rotate!
+      objectReference: {fileID: 0}
     - target: {fileID: 22420888, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24405,26 +24425,6 @@ PrefabInstance:
     - target: {fileID: 22420888, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 578425239}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_Reticle
-      value: 
-      objectReference: {fileID: 578425231}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_VRInput
-      value: 
-      objectReference: {fileID: 578425227}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_DoubleTapWarningMessage
-      value: Hold, don't tap!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_SingleTapWarningMessage
-      value: Swipe to rotate!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
@@ -25760,7 +25760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1405807713
 Transform:
   m_ObjectHideFlags: 0
@@ -26929,7 +26929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1795346554
 Transform:
   m_ObjectHideFlags: 0
@@ -27950,7 +27950,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041232990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -27960,8 +27960,8 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d45db2c5a246c044975b7d3af6a8fee, type: 2}
-  - {fileID: 2100000, guid: 739c721b8b2a39148b047f1fc89e5ff0, type: 2}
+  - {fileID: 2100000, guid: fcc914e819024e342a45425ca270da2a, type: 2}
+  - {fileID: 2100000, guid: fcc914e819024e342a45425ca270da2a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
