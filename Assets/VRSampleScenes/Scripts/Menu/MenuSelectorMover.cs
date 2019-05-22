@@ -41,7 +41,7 @@ namespace VRStandardAssets.Menu
             // Go through each of the interactive items and for the one that the user is looking at, set the target position and rotation.
 	        for (int i = 0; i < m_Items.Length; i++)
 	        {
-	            if (!m_Items[i].IsOver)
+	           // if (!m_Items[i].IsOver)
                     continue;
 
 	            m_TargetRotation = m_Items[i].transform.rotation;
