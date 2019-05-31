@@ -2362,5 +2362,4 @@ ScriptsOnlyBuild:
   - Assets/VRSampleScenes/Scenes/MainMenu.unity
   - Assets/VRSampleScenes/Scenes/Game.unity
   - Assets/VRSampleScenes/Scenes/Maze.unity
-  playerPath: C:/Users/williamt/Documents/GitHub/UBBL-Summer-2019/Build and Run/Test
-    5/Test Build.exe
+  playerPath: C:/Users/craw1594/Documents/Build and Run/53119v7/Test Build.exe
