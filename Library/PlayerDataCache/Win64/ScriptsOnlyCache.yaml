@@ -180,6 +180,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 132
       Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
@@ -2362,4 +2364,4 @@ ScriptsOnlyBuild:
   - Assets/VRSampleScenes/Scenes/MainMenu.unity
   - Assets/VRSampleScenes/Scenes/Game.unity
   - Assets/VRSampleScenes/Scenes/Maze.unity
-  playerPath: C:/Users/craw1594/Documents/Build and Run/53119v7/Test Build.exe
+  playerPath: C:/Users/craw1594/Documents/Build and Run/6619v4/Test Build.exe
