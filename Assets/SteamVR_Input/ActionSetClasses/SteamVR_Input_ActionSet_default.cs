@@ -41,11 +41,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean Right_Grip_Button
+        public virtual SteamVR_Action_Pose Right_Grab_Button
         {
             get
             {
-                return SteamVR_Actions.default_Right_Grip_Button;
+                return SteamVR_Actions.default_Right_Grab_Button;
             }
         }
         

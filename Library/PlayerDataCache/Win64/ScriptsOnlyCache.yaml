@@ -35,8 +35,13 @@ ScriptsOnlyBuild:
     - VRStandardAssets.Utils.VRInteractiveItem
     - VRStandardAssets.Utils.VRTrackingReset
     SteamVR.dll:
+    - Valve.VR.InteractionSystem.Hand
     - Valve.VR.SteamVR_Behaviour_Pose
+    - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_ExternalCamera
+    - Valve.VR.SteamVR_PlayArea
+    - Valve.VR.SteamVR_Render
+    - Valve.VR.SteamVR_RenderModel
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     Unity.TextMeshPro.dll:
@@ -105,6 +110,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9418}
     - Class: 114
+      Script: {instanceID: 9468}
+    - Class: 114
       Script: {instanceID: 9526}
     - Class: 114
       Script: {instanceID: 9652}
@@ -131,45 +138,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10024}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 10278}
     - Class: 114
-      Script: {instanceID: 10292}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10356}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10420}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 10496}
+      Script: {instanceID: 10468}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10538}
+      Script: {instanceID: 10542}
     - Class: 114
-      Script: {instanceID: 10576}
+      Script: {instanceID: 10546}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10584}
     - Class: 114
-      Script: {instanceID: 10680}
+      Script: {instanceID: 10664}
     - Class: 114
-      Script: {instanceID: 10796}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10792}
     - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10794}
     - Class: 114
-      Script: {instanceID: 11116}
+      Script: {instanceID: 10804}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 10812}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 10836}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 10896}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 11124}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11402}
+    - Class: 114
+      Script: {instanceID: 11404}
+    - Class: 114
+      Script: {instanceID: 11426}
+    - Class: 114
+      Script: {instanceID: 11450}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -280,35 +297,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 10278}
     - Class: 114
-      Script: {instanceID: 10304}
+      Script: {instanceID: 10312}
     - Class: 114
-      Script: {instanceID: 10356}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10496}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10574}
+      Script: {instanceID: 10582}
     - Class: 114
-      Script: {instanceID: 10700}
+      Script: {instanceID: 10708}
     - Class: 114
-      Script: {instanceID: 10710}
+      Script: {instanceID: 10718}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10792}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 10892}
     - Class: 114
-      Script: {instanceID: 11110}
+      Script: {instanceID: 11118}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11236}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 11450}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -407,43 +424,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10024}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 10278}
     - Class: 114
-      Script: {instanceID: 10292}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10356}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10420}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10468}
     - Class: 114
-      Script: {instanceID: 10496}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10542}
     - Class: 114
-      Script: {instanceID: 10538}
+      Script: {instanceID: 10546}
     - Class: 114
-      Script: {instanceID: 10576}
+      Script: {instanceID: 10584}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10664}
     - Class: 114
-      Script: {instanceID: 10680}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10836}
     - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10896}
     - Class: 114
-      Script: {instanceID: 11116}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11404}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 11450}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2364,4 +2381,4 @@ ScriptsOnlyBuild:
   - Assets/VRSampleScenes/Scenes/MainMenu.unity
   - Assets/VRSampleScenes/Scenes/Game.unity
   - Assets/VRSampleScenes/Scenes/Maze.unity
-  playerPath: C:/Users/craw1594/Documents/Build and Run/6619v4/Test Build.exe
+  playerPath: C:/Users/craw1594/Documents/Build and Run/6719v1/Test Build.exe

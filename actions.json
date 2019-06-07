@@ -13,8 +13,9 @@
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/Right Grip Button",
-      "type": "boolean"
+      "name": "/actions/default/in/Right Grab Button",
+      "type": "pose",
+      "requirement": "mandatory"
     },
     {
       "name": "/actions/default/in/SkeletonLeftHand",
@@ -24,7 +25,8 @@
     {
       "name": "/actions/default/in/SkeletonRightHand",
       "type": "skeleton",
-      "skeleton": "/skeleton/hand/right"
+      "skeleton": "/skeleton/hand/right",
+      "requirement": "mandatory"
     },
     {
       "name": "/actions/default/in/Squeeze",
@@ -48,6 +50,10 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/mixedreality/in/Pose",
+      "type": "boolean"
     }
   ],
   "action_sets": [
