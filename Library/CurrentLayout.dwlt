@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 522}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 997
-  m_MinSize: {x: 950, y: 522}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 947
-  m_MinSize: {x: 579, y: 472}
+  m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 119
+  controlID: 120
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 947
-  m_MinSize: {x: 579, y: 472}
+  m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 120
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,10 +160,10 @@ MonoBehaviour:
     y: 0
     width: 1424
     height: 947
-  m_MinSize: {x: 302, y: 472}
+  m_MinSize: {x: 306, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 95
+  controlID: 56
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 1424
     height: 596
-  m_MinSize: {x: 302, y: 200}
-  m_MaxSize: {x: 8002, y: 4022}
+  m_MinSize: {x: 306, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
   controlID: 57
 --- !u!114 &9
@@ -237,8 +237,8 @@ MonoBehaviour:
     y: 0
     width: 423
     height: 596
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -413,9 +413,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.65910065, y: 2.771367, z: -9.708771}
+    m_Target: {x: -0.052197397, y: 2.8102908, z: -9.708771}
     speed: 2
-    m_Value: {x: 0.65910065, y: 2.771367, z: -9.708771}
+    m_Value: {x: -0.052197397, y: 2.8102908, z: -9.708771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -446,11 +446,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Value: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
   m_Size:
-    m_Target: 1.829308
+    m_Target: 0.90408915
     speed: 2
-    m_Value: 1.829308
+    m_Value: 0.90408915
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -555,21 +555,21 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8e4f0200
-      m_LastClickedID: 151438
-      m_ExpandedIDs: 981bffffc61bfffffc1dffff001effff8c1effff5a29ffff5c29ffff7e29ffff2c34ffff2e34ffff5034fffffa3efffffc3effff1e3fffff684affff6a4affff8c4affff3c55ffff3e55ffff6055ffff587affff967affffb07affffb47affff367bffff4687ffff8487ffff9e87ffffa287ffff2488ffff8ea4ffffcca4ffffe6a4ffffeaa4ffff6ca5ffff8eadffffccadffffe6adffffeaadffff6caeffffd2c5ffff10c6ffff2ac6ffff2ec6ffffb0c6ffff9cd9ffffd8d9ffffd6dbffffdadbffff66dcffffe8e7ffff34bf0000eec100004cc50000e4c600008ecd000056f400004cf90000cc260100c22b0100ae560100685901005e5e01000c650100228c01001891010030d801007ada0100eada0100e0df010092e60100ee0f02004421020000500200f254020084570200e0580200
+      scrollPos: {x: 0, y: 256}
+      m_SelectedIDs: 1c6b0000
+      m_LastClickedID: 27420
+      m_ExpandedIDs: 64b4ffff6eb4ffff8ae7ffff94e7ffff96e7ffff326800009e6a00001c6b0000226c0000966d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: finger_index_r_aux
-        m_OriginalName: finger_index_r_aux
+        m_Name: vr_glove_left
+        m_OriginalName: vr_glove_left
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 153726
+        m_UserData: -19346
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SteamVR/Input
+    - Assets/SteamVR/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -632,7 +632,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 0000000082530000a65300000a540000265400009e540000d6540000405500001c5600007c56000096560000d0560000345700003e570000445800007c580000ae580000d658000084590000c0590000d0590000725a00007c5a00002c5b00008a5b00009a5b00009c5b0000cc5c0000705d00009c5d0000f65d0000b05e0000205f00008e5f0000d05f0000d45f0000046000002a620000586200008c620000f0620000026300001c63000014640000ba640000c4640000f8640000c2650000d8650000cc660000886700009067000098670000fe670000
+    m_ExpandedIDs: 000000008e530000b05300000e5400002a540000a2540000d85400003e55000012560000705600008a560000c2560000225700002c570000305800006858000094580000bc58000066590000a2590000b0590000ee590000505a00005a5a0000045b0000605b0000705b0000725b00009e5c0000425d0000525d00006e5d0000c85d0000625e0000825e0000ee5e0000565f0000965f00009a5f0000c85f0000de600000d861000004620000386200009c620000ae620000c8620000b4630000506400005a6400008e640000546500006a6500005a660000126700001a6700002267000088670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -657,24 +657,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 1132}
+    scrollPos: {x: 0, y: 404}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000082530000a65300000a540000265400009e540000d6540000405500001c5600007c56000096560000d0560000345700003e570000445800007c580000ae580000d658000084590000c0590000d05900000e5a0000725a00007c5a00002c5b00008a5b00009a5b00009c5b0000cc5c0000705d0000805d00009c5d0000f65d0000905e0000b05e0000205f00008e5f0000d05f0000d45f000004600000286100002a620000586200008c620000f0620000026300001c63000014640000ba640000c4640000f8640000c2650000d8650000cc660000886700009067000098670000fe670000
+    m_ExpandedIDs: ffffffff000000008e530000b05300002a540000a2540000d85400003e55000012560000705600008a560000c2560000225700002c5700003058000068580000bc58000066590000a2590000b0590000ee590000505a00005a5a0000045b0000605b0000705b0000725b00009e5c0000425d0000525d00006e5d0000c85d0000825e0000ee5e0000565f00009a5f0000c85f0000de600000d861000004620000386200009c620000ae620000c8620000b4630000506400005a6400008e640000546500006a6500005a660000126700001a67000088670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SteamVR_Action
-      m_OriginalName: SteamVR_Action
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9940
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
