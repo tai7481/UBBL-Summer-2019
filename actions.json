@@ -43,6 +43,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
