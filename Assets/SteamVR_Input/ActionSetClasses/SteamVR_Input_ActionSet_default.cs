@@ -41,7 +41,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Pose Right_Grab_Button
+        public virtual SteamVR_Action_Boolean Right_Grab_Button
         {
             get
             {

@@ -14,7 +14,7 @@
     },
     {
       "name": "/actions/default/in/Right Grab Button",
-      "type": "pose",
+      "type": "boolean",
       "requirement": "mandatory"
     },
     {
